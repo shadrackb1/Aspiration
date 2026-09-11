@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="170" viewBox="0 0 720 170">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#A78BFA" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#A78BFA" stop-opacity="0.15"/>
+    </linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="720" height="170" fill="#0D1117"/>
+  <g stroke="#21262D" stroke-width="1">
+    <line x1="0" y1="42" x2="720" y2="42"/><line x1="0" y1="85" x2="720" y2="85"/><line x1="0" y1="128" x2="720" y2="128"/>
+    <line x1="180" y1="0" x2="180" y2="170"/><line x1="360" y1="0" x2="360" y2="170"/><line x1="540" y1="0" x2="540" y2="170"/>
+  </g>
+  <g filter="url(#glow)" opacity="0.95">
+  <circle cx="120" cy="95" r="30" fill="none" stroke="#A78BFA" stroke-width="2"/>
+  <line x1="120" y1="95" x2="120" y2="75" stroke="#A78BFA" stroke-width="2"/>
+  <line x1="120" y1="95" x2="138" y2="95" stroke="#A78BFA" stroke-width="2"/>
+  </g>
+  <path d="M180 95 H220" stroke="url(#g)" stroke-width="2" fill="none">
+    <animate attributeName="stroke-dasharray" values="0 40;40 0" dur="1.8s" repeatCount="indefinite"/>
+  </path>
+  <text x="230" y="82" font-family="ui-monospace,Menlo,monospace" font-size="22" fill="#E6EDF3">Aspiration</text>
+  <text x="230" y="112" font-family="ui-monospace,Menlo,monospace" font-size="13" fill="#8B949E">Life dreams and goals tracker.</text>
+  <circle cx="680" cy="30" r="4" fill="#A78BFA">
+    <animate attributeName="opacity" values="1;0.2;1" dur="1.5s" repeatCount="indefinite"/>
+  </circle>
+</svg>

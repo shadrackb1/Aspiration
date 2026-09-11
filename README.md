@@ -1,10 +1,8 @@
-﻿# Aspiration
+# Aspiration
 
-Aspiration - Life Dreams & Goals
+<img src="./assets/header.svg" width="100%" alt="Aspiration" />
 
-## Stack
-
-react Â· vite Â· typescript Â· tailwindcss
+Life dreams and goals tracker.
 
 ## Run locally
 
@@ -13,4 +11,4 @@ react Â· vite Â· typescript Â· tailwindcss
 
 ## License
 
-Private / all rights reserved.
+All rights reserved.
