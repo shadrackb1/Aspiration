@@ -1,8 +1,12 @@
 # Aspiration
 
-<img src="./assets/header.svg" width="100%" alt="Aspiration" />
+Life dreams and goals tracker with AI coaching prompts.
 
-Life dreams and goals tracker.
+**Status:** prototype
+
+## Stack
+
+React, TypeScript, Vite, Tailwind, Gemini
 
 ## Run locally
 
